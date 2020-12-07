@@ -1,0 +1,146 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Tenor Sans', sans-serif;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 4vmin 5vmin 5vmin 5vmin;
+}
+
+.navLink {
+  padding-left: 6vmin;
+  font-size: 2.5vmin;
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 10vmin;
+  margin-bottom: 13vmin;
+}
+
+.titleimg{
+  background-image: url(https://media.giphy.com/media/ozf2HEuf4yvHED1oWj/source.gif);
+  background-color: #000000;
+  background-size: 90vmin 90vmin;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 20vmin;
+}
+
+hr {
+  margin-top: -3vmin;
+}
+
+.first {
+  font-size: 3vmin;
+  padding-bottom: 3vmin;
+}
+
+.name {
+  font-size: 7.5vmin;
+  padding-bottom: 6vmin;
+}
+
+.intro {
+  font-size: 2.25vmin;
+  padding-bottom: 2.5vmin;
+}
+
+.intro2 {
+  font-size: 2.25vmin;
+  padding-bottom: 2.5vmin;
+}
+
+.intro3 {
+  font-size: 2.25vmin;
+  padding-bottom: 2.5vmin;
+
+}
+
+a{
+  text-decoration: none;
+  color: White;
+}
+
+h1 {
+  font-size: 7vmin;
+}
+
+.workItems {
+  text-align: center;
+  padding-top: 10vmin;
+}
+
+.workItems p {
+  margin-top: -2vmin;
+}
+
+.Title {
+  text-align: center;
+  padding-top: 8vmin;
+  padding-bottom: 5vmin;
+}
+
+.Title p {
+  margin-top: -2vmin;
+}
+
+.description {
+  padding-bottom: 30vmin;
+}
+
+.description p{
+  text-align: center;
+  font-size: 3vmin;
+  padding: 2vmin 10vmin 0px 10vmin;
+}
+
+
+.layout img {
+  width: 57%;
+  margin-top: -7vmin;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3vmin;
+  margin-bottom: 30vmin;
+}
+
+.cardlayout {
+  margin-top: -15vmin;
+  display: block;
+  text-align: center;
+  padding-bottom: 10vmin;
+}
+
+.cardlayout img {
+  width: 60%;
+}
+
+.weblink {
+  font-size: 3vmin;
+  text-decoration: underline;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: -20vmin;
+  margin-bottom: 15vmin;
+}
+
+.myWork {
+  padding-bottom: 10vmin;
+}
