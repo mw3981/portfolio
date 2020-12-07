@@ -17,12 +17,12 @@ let jsonData = [
   {
     "title": "Masks",
     "image":"mask.png",
-    "link": "https://mw3981.github.io/Masks/"
+    "link": "https://mw3981.github.io/wearmasks/"
   },
   {
     "title": "Masks",
     "image":"maskswebsite.jpg",
-    "link": "https://mw3981.github.io/Masks/"
+    "link": "https://mw3981.github.io/wearmasks/"
   },
   {
     "title": "Cards",
