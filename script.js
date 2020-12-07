@@ -3,11 +3,7 @@ let maskImageElement = document.getElementById('imagesMasks');
 let cardImageElement = document.getElementById('imagesCards');
 
 let jsonData = [
-  {
-    "title" : "Magritte",
-    "image": "renemagritte.gif",
-    "link": "https://mw3981.github.io/ReneGallery/",
-  },
+
   {
     "title": "Magritte",
     "image": "ReneMockup.png",
@@ -17,11 +13,6 @@ let jsonData = [
     "title": "Magritte",
     "image": "renemagrittewebsite.png",
     "link": "https://mw3981.github.io/ReneGallery/",
-  },
-  {
-    "title": "Masks",
-    "image":"mask.gif",
-    "link": "https://mw3981.github.io/Masks/"
   },
   {
     "title": "Masks",
