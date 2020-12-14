@@ -144,3 +144,143 @@ h1 {
 .myWork {
   padding-bottom: 10vmin;
 }
+
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-device-width : 768px) and (max-width: 1024px) {
+  .first {
+    font-size: 2.5vmin;
+  }
+
+  .intro, .intro2, .intro3 {
+    font-size: 2.5vmin;
+  }
+
+  .name {
+    font-size: 8vmin;
+  }
+
+  .titleimg {
+    background-size: 75vmin 75vmin;
+  }
+
+  .navLink {
+    font-size: 3vmin;
+  }
+
+  .content {
+    margin-right: -12vmin;
+    margin-left: -12vmin;
+    padding-top: 4vmin;
+  }
+
+  .myWork {
+    padding-top: 8vmin;
+  }
+
+  .workItems p {
+    font-size: 2.3vmin;
+  }
+
+  .Title p {
+    font-size: 2.3vmin;
+  }
+
+  .description p {
+    font-size: 2.7vmin;
+  }
+
+  .weblink a {
+    font-size: 4vmin;
+  }
+
+  .layout img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .cardlayout img {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .first {
+    font-size: 1.5vmin;
+  }
+
+  .intro, .intro2, .intro3 {
+    font-size: 1.5vmin;
+  }
+
+  .name {
+    font-size: 9vmin;
+  }
+
+  .content {
+    margin-right: -13vmin;
+    margin-left: -13vmin;
+    padding-top: 15vmin;
+  }
+
+  .titleimg {
+    background-size: 80vmin 80vmin;
+  }
+
+  .navLink {
+    font-size: 4vmin;
+  }
+
+  .myWork {
+    padding-top: 25vmin;
+  }
+
+  .workItems p {
+    font-size: 3.3vmin;
+  }
+
+  .description p{
+    font-size: 2.8vmin;
+  }
+
+  .Title p {
+    font-size: 3.5vmin;
+  }
+
+  .Title h1 {
+    font-size: 9vmin;
+  }
+
+  .layout img {
+    width: 90%;
+    height: 90%;
+  }
+
+  .weblink a {
+    font-size: 4vmin;
+  }
+
+  .cardlayout img {
+    width: 90%;
+    height: 90%;
+  }
+
+
+/* iPhone X ----------- */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+  .titleimg {
+      background-size: 80vmin 80vmin;
+  }
+
+  .content {
+    padding-top: 37vmin;
+  }
+
+}
