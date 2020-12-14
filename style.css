@@ -223,7 +223,7 @@ h1 {
   .content {
     margin-right: -13vmin;
     margin-left: -13vmin;
-    padding-top: 15vmin;
+    padding-top: 18vmin;
   }
 
   .titleimg {
@@ -267,8 +267,5 @@ h1 {
     width: 90%;
     height: 90%;
   }
-
-
-/* iPhone X ----------- */
 
 }
