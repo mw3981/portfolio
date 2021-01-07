@@ -1,6 +1,8 @@
 let reneImageElement = document.getElementById('imagesRene');
 let maskImageElement = document.getElementById('imagesMasks');
 let cardImageElement = document.getElementById('imagesCards');
+let menuImageElement = document.getElementById('imagesMenu');
+
 
 let jsonData = [
 
@@ -44,7 +46,21 @@ let jsonData = [
     "image":"FaceCards3.png",
     "link": "#"
   },
-
+  {
+    "title": "Menu",
+    "image":"menu_mockup.png",
+    "link": "#"
+  },
+  {
+    "title": "Menu",
+    "image":"design_menu.pdf",
+    "link": "#"
+  },
+  {
+    "title": "Menu",
+    "image":"design_menu (dragged).pdf",
+    "link": "#"
+  },
 ]
 
 function createElement(incomingJSON){
@@ -73,6 +89,10 @@ function createElement(incomingJSON){
 
     else if (incomingJSON[i]['title'] == 'Cards' && pageName == 'CARD'){
       cardImageElement.appendChild(newContentElement);
+    }
+
+    else if (incomingJSON[i]['title'] == 'Menu' && pageName == 'MENU'){
+      menuImageElement.appendChild(newContentElement);
     }
 
     }
