@@ -13,7 +13,7 @@ let jsonData = [
   },
   {
     "title": "Magritte",
-    "image": "renemagrittewebsite.png",
+    "image": "renemagrittewebsite.jpg",
     "link": "https://mw3981.github.io/ReneGallery/",
   },
   {
