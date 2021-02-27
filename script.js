@@ -58,7 +58,7 @@ let jsonData = [
   },
   {
     "title": "Menu",
-    "image":"design_menu (dragged).pdf",
+    "image":"design_menu2.pdf",
     "link": "#"
   },
 ]
