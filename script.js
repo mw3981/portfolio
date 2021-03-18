@@ -1,5 +1,6 @@
 let reneImageElement = document.getElementById('imagesRene');
 let maskImageElement = document.getElementById('imagesMasks');
+let tinDogImageElement = document.getElementById('imagesTinDog');
 let cardImageElement = document.getElementById('imagesCards');
 let menuImageElement = document.getElementById('imagesMenu');
 
@@ -25,6 +26,11 @@ let jsonData = [
     "title": "Masks",
     "image":"maskswebsite.jpg",
     "link": "https://mw3981.github.io/wearmasks/"
+  },
+  {
+    "title": "TinDog",
+    "image":"tindog.png",
+    "link": "https://mw3981.github.io/tindog/"
   },
   {
     "title": "Cards",
@@ -85,6 +91,10 @@ function createElement(incomingJSON){
 
     else if (incomingJSON[i]['title'] == 'Masks' && pageName == 'MASK'){
       maskImageElement.appendChild(newContentElement);
+    }
+
+    else if (incomingJSON[i]['title'] == 'TinDog' && pageName == 'TINDOG'){
+      tinDogImageElement.appendChild(newContentElement);
     }
 
     else if (incomingJSON[i]['title'] == 'Cards' && pageName == 'CARD'){
