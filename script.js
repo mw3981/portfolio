@@ -9,62 +9,62 @@ let jsonData = [
 
   {
     "title": "Magritte",
-    "image": "ReneMockup.png",
+    "image": "images/ReneMockup.png",
     "link": "https://mw3981.github.io/ReneGallery/",
   },
   {
     "title": "Magritte",
-    "image": "renemagrittewebsite.jpg",
+    "image": "images/renemagrittewebsite.jpg",
     "link": "https://mw3981.github.io/ReneGallery/",
   },
   {
     "title": "Masks",
-    "image":"mask.png",
+    "image":"images/mask.png",
     "link": "https://mw3981.github.io/wearmasks/"
   },
   {
     "title": "Masks",
-    "image":"maskswebsite.jpg",
+    "image":"images/maskswebsite.jpg",
     "link": "https://mw3981.github.io/wearmasks/"
   },
   {
     "title": "TinDog",
-    "image":"tindog.png",
+    "image":"images/tindog.png",
     "link": "https://mw3981.github.io/tindog/"
   },
   {
     "title": "Cards",
-    "image":"FaceCards1-(zippo&lungs).png",
+    "image":"images/FaceCards1-(zippo&lungs).png",
     "link": "#"
   },
   {
     "title": "Cards",
-    "image":"FaceCards1-(juul cig).png",
+    "image":"images/FaceCards1-(juul cig).png",
     "link": "#"
   },
   {
     "title": "Cards",
-    "image":"FaceCards3(otherjoker).png",
+    "image":"images/FaceCards3(otherjoker).png",
     "link": "#"
   },
   {
     "title": "Cards",
-    "image":"FaceCards3.png",
+    "image":"images/FaceCards3.png",
     "link": "#"
   },
   {
     "title": "Menu",
-    "image":"menu_mockup.png",
+    "image":"images/menu_mockup.png",
     "link": "#"
   },
   {
     "title": "Menu",
-    "image":"design_menu.pdf",
+    "image":"images/design_menu.pdf",
     "link": "#"
   },
   {
     "title": "Menu",
-    "image":"design_menu2.pdf",
+    "image":"images/design_menu2.pdf",
     "link": "#"
   },
 ]
