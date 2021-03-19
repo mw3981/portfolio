@@ -6,6 +6,20 @@ body, html {
   background-color: #000000;
 }
 
+hr {
+  margin-top: -3vmin;
+}
+
+a{
+  text-decoration: none;
+  color: White;
+}
+
+h1 {
+  font-size: 7vmin;
+}
+
+/* HEADER */
 
 .header {
   display: flex;
@@ -21,6 +35,7 @@ body, html {
   align-items: flex-end;
 }
 
+/* INTRO */
 
 .title {
   display: flex;
@@ -41,9 +56,6 @@ body, html {
   padding: 20vmin;
 }
 
-hr {
-  margin-top: -3vmin;
-}
 
 .first {
   font-size: 3vmin;
@@ -71,14 +83,7 @@ hr {
 
 }
 
-a{
-  text-decoration: none;
-  color: White;
-}
-
-h1 {
-  font-size: 7vmin;
-}
+/* PROJECT LIST */
 
 .workItems {
   text-align: center;
@@ -88,6 +93,8 @@ h1 {
 .workItems p {
   margin-top: -2vmin;
 }
+
+/* WORK PAGE HEADING  */
 
 .Title {
   text-align: center;
@@ -109,6 +116,11 @@ h1 {
   padding: 2vmin 10vmin 0px 10vmin;
 }
 
+.myWork {
+  padding-bottom: 10vmin;
+}
+
+/* WORK IMAGES */
 
 .layout img {
   width: 57%;
@@ -131,6 +143,7 @@ h1 {
   width: 60%;
 }
 
+/* LINK TO MY WEBSITES */
 
 .weblink {
   font-size: 3vmin;
@@ -142,9 +155,6 @@ h1 {
   margin-bottom: 15vmin;
 }
 
-.myWork {
-  padding-bottom: 10vmin;
-}
 
 
 /* iPads (portrait and landscape) ----------- */
