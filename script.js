@@ -29,6 +29,11 @@ let jsonData = [
   },
   {
     "title": "TinDog",
+    "image":"images/TinDog_mockup.png",
+    "link": "https://mw3981.github.io/tindog/"
+  },
+  {
+    "title": "TinDog",
     "image":"images/tindog.png",
     "link": "https://mw3981.github.io/tindog/"
   },
