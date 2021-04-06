@@ -2,12 +2,12 @@
 
 This is my portfolio website displaying the projects I have done.
 
-#Technologies
+# Technologies
 
 Project is created with:
 * HTML/CSS
 * Javascript
 
-#Website
+# Website
 
 https://michellewong.me
