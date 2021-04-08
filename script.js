@@ -90,7 +90,7 @@ function createElement(incomingJSON){
     linkElem.appendChild(newContentPic);
 
 
-    if (incomingJSON[i]['title'] == 'Magritte' && pageName == 'RENE') {
+    if (incomingJSON[i]['title'] == 'Magritte' && pageName == 'RENE'){
       reneImageElement.appendChild(newContentElement);
     }
 
