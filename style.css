@@ -92,7 +92,6 @@ h1 {
   line-height: 2;
 }
 
-
 /* PROJECT LIST */
 .workItems {
   text-align: center;
@@ -164,6 +163,8 @@ h1 {
 
 /* iPads (portrait and landscape) ----------- */
 @media screen and (min-device-width : 768px) and (max-width: 1024px) {
+
+  /* INTRO */
   .first {
     font-size: 2.5vmin;
   }
@@ -190,6 +191,7 @@ h1 {
     padding-top: 4vmin;
   }
 
+  /* PROJECT LIST */
   .myWork {
     padding-top: 8vmin;
   }
@@ -198,6 +200,24 @@ h1 {
     font-size: 2.3vmin;
   }
 
+  /* CONTACT ME */
+
+  .contactme {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vmin;
+    padding-bottom: 3rem;
+    margin-top: -3rem;
+    position: static;
+    align-items: center;
+  }
+
+  .contactme a {
+    display: flex;
+  }
+
+
+  /* WORK PAGE HEADING  */
   .Title p {
     font-size: 2.3vmin;
   }
@@ -223,6 +243,8 @@ h1 {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* INTRO */
   .first {
     font-size: 1.5vmin;
   }
@@ -249,6 +271,7 @@ h1 {
     font-size: 4vmin;
   }
 
+  /* PROJECT LIST */
   .myWork {
     padding-top: 25vmin;
   }
@@ -266,6 +289,7 @@ h1 {
     font-size: 2vmin;
   }
 
+  /* WORK PAGE HEADING  */
   .Title p {
     font-size: 3.5vmin;
   }
