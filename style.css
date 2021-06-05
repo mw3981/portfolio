@@ -79,6 +79,20 @@ h1 {
   padding-bottom: 2.5vmin;
 }
 
+/* CONTACT ME */
+.contactme {
+  bottom: 40rem;
+  display: inline-block;
+  left: 73rem;
+  position: relative;
+}
+
+.contactme a {
+  color: #DDA0DD;
+  line-height: 2;
+}
+
+
 /* PROJECT LIST */
 .workItems {
   text-align: center;
